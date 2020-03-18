@@ -1,0 +1,52 @@
+git status
+
+git clone https://github.com/Yankocosta/testegit.git
+
+# enviar para github quando o repositorio ainda NAO existe
+git remote add origin https://github.com/Yankocosta/testegit.git
+
+# jogar para o github (master eh o repositorio existente)
+git push -u origin master
+
+# add = acrescenta arquivo no repositorio local primeiro
+git add progYY.php
+
+git commit -m "comentario sobre a alteracao"
+
+# para fazer o add+commit juntos
+
+git commit -a -m "comentario"
+
+
+# criar um branch (versao do projeto / fork)
+git checkout -b novoYY *
+
+# para voltar para a versao original (master)
+
+git checkout master
+
+# para jogar o branch para o github
+
+git push origin novoYY
+
+# atualizar a maquina local com a versao do remoto
+
+git pull
+
+# atualizar com alteracao (merge)
+
+git merge novoYY
+
+# ver as alteracoes entre os repositorios
+
+git diff master novoYY
+
+# ver historico das alteracoes
+
+git log
+
+# voltar ao arquivo do master
+
+git checkout -- <nomedoarquivo>
+
+
