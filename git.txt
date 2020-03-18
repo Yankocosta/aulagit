@@ -7,7 +7,7 @@ git status
 
 git clone https://github.com/Yankocosta/testegit.git
 
-# enviar para github quando o repositorio ainda NAO existe
+# enviar para github o repositorio local pela primeira vez
 git remote add origin https://github.com/Yankocosta/testegit.git
 
 # jogar para o github (master eh o repositorio existente)
