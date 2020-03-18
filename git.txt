@@ -1,3 +1,9 @@
+# --------------------------------------------------
+# dicas git
+# --------------------------------------------------
+
+alterado no branch
+
 git status
 
 git clone https://github.com/Yankocosta/testegit.git
